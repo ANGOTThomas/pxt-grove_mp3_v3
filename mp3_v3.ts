@@ -196,7 +196,7 @@ namespace mp3_V3 {
 
         let numberOfTracks = serial.readLine();
 
-        let numTr = numberOfTracks();
+        let numTr : number = numberOfTracks();
 
         basic.showString(numTr);        
     }
